@@ -4,17 +4,6 @@
 <meta charset="UTF-8">
 <title>School System</title>
 <style>
-  /* ---------- GLOBAL ---------- */
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-image: url('https://github.com/leviathanex4-dev/Jibs_dshscapstone/blob/main/1770270529369.jpg';
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: #333;
-  }
 
   /* ---------- LOGIN ---------- */
   .login {
