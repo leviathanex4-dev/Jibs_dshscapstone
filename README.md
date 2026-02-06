@@ -1,4 +1,4 @@
-MY DSHS, MY HOME
+Your Companion To A Wonderful DSHS Schoo-life
 <html lang="en">
 <head>
 <meta charset="UTF-8">
