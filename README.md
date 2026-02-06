@@ -4,7 +4,26 @@
 <meta charset="UTF-8">
 <title>School System</title>
 <style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
 
+  /* notebook lines */
+  background-image:
+    linear-gradient(#e6e6e6 1px, transparent 1px),
+    linear-gradient(90deg, #f5b7b1 2px, transparent 2px);
+
+  background-size:
+    100% 28px,   /* horizontal lines */
+    60px 100%;   /* red margin line */
+
+  background-position:
+    0 0,
+    50px 0;
+
+  color: #333;
+}
   /* ---------- LOGIN ---------- */
   .login {
     height: 100vh;
