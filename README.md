@@ -30,6 +30,11 @@ body {
     align-items: center;
   }
 
+<p style="font-size:13px; margin-top:15px;">
+  Don’t have an account yet?
+  <span class="signup-link" onclick="showSignup()">Sign up!</span>
+</p>
+
   .box {
     background: rgba(255,255,255,0.95);
     padding: 25px;
