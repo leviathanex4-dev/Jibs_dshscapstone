@@ -22,6 +22,17 @@ body {
   background-size: 100% 28px;
   color: #222;
 }
+
+.signup-link {
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
 /* ---------- LOGIN ---------- */
   .login {
     height: 100vh;
