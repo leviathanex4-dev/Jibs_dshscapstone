@@ -28,18 +28,18 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
-
 .signup-link:hover {
   text-decoration: underline;
 }
 
-<!-- LOGIN -->
+/*--------- Log in ---------*/
 <div class="login" id="login">
   <div class="box">
     <h2>Login</h2>
     <input type="password" id="password" placeholder="Enter password">
     <button onclick="login()">Login</button>
 
+    <!-- Sign up link -->
     <p style="font-size:13px; margin-top:15px;">
       Don’t have an account yet?
       <span class="signup-link" onclick="showSignup()">Sign up!</span>
@@ -49,18 +49,16 @@ body {
   </div>
 </div>
 
-<!-- SIGN UP -->
+<!-- SIGN UP FORM -->
 <div class="login" id="signup" style="display:none;">
   <div class="box">
     <h2>Student Sign Up</h2>
-
     <input type="text" placeholder="Full Name">
     <input type="text" placeholder="Student I.D">
     <input type="text" placeholder="Section">
     <input type="text" placeholder="Track">
     <input type="text" placeholder="Strand">
     <input type="text" placeholder="Grade Level">
-
     <button onclick="submitSignup()">Create Account</button>
 
     <p style="font-size:13px; margin-top:10px;">
@@ -439,7 +437,7 @@ function submitSignup() {
   showLogin();
 }  
 
-function showSignup() {
+  function showSignup() {
   document.getElementById("login").style.display = "none";
   document.getElementById("signup").style.display = "flex";
 }
