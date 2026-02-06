@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+MY DSHS, MY HOME
 <html lang="en">
 <head>
 <meta charset="UTF-8">
