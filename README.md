@@ -243,9 +243,7 @@ function loadDashboard() {
   logoutBtn.innerText="⬅ Back"; logoutBtn.className="logout"; logoutBtn.onclick=logout;
   menu.appendChild(logoutBtn);
 
-  showSchoolPhoto();
 }
-
 /* ---------- MENU ---------- */
 function createMenu(items){
   const menu=document.getElementById("menu");
